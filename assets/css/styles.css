@@ -142,6 +142,11 @@ a:hover {
 .primary-bg {
   background-color: #fc9928;
 }
+.btn-secondary {
+  background: #2D3A8Cff !important;
+  color: #ffffff;
+  border: 1px solid #2D3A8Cff !important;
+}
 
 /*============================================
     1.2 Header Bottom
@@ -435,8 +440,11 @@ a:hover {
 .slider-content h1 span {
   display: block;
 }
-.primary-color {
+.text-primary{
   color: #fc9928 !important;
+}
+.primary-color {
+  color: #2D3A8Cff !important;
 }
 .secondary-color{
   color: #2D3A8Cff !important;
@@ -777,7 +785,6 @@ img.title-top-shape {
 /*============================================
     1.7 Teacher Area
 *=============================================*/
-
 .teacher-area {
   position: relative;
   z-index: 1;
