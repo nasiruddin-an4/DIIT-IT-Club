@@ -73,9 +73,9 @@
             loop: true,
             autoplay: true,
             dots: false,
-            autoplayTimeout: 4000,
+            autoplayTimeout: 5000,
             nav: true,
-            smartSpeed: 800,
+            smartSpeed: 900,
             navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
             responsive: {
                 0: {
@@ -107,10 +107,10 @@
             autoplay: true,
             dots: true,
             margin: 0,
-            autoplayTimeout: 4000,
+            autoplayTimeout: 5000,
             nav: false,
             dotsEach: true,
-            smartSpeed: 800,
+            smartSpeed: 900,
             responsive: {
                 0: {
                     items: 1, 
