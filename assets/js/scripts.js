@@ -55,8 +55,9 @@
         $('.slider-area').owlCarousel({
             margin: 0,
             loop: true,
-            autoplay: false,
+            autoplay: true,
             autoplayTimeout: 4000,
+            //autoplayHoverPause:true,
             nav: true,
             items: 1,
             smartSpeed: 800,
@@ -70,7 +71,7 @@
     function course_carousel() {
         $('.course-carousel').owlCarousel({
             loop: true,
-            autoplay: false,
+            autoplay: true,
             dots: false,
             autoplayTimeout: 4000,
             nav: true,
@@ -103,7 +104,7 @@
     function commn_carousel() {
         $('.commn-carousel').owlCarousel({
             loop: true,
-            autoplay: false,
+            autoplay: true,
             dots: true,
             margin: 0,
             autoplayTimeout: 4000,
@@ -133,7 +134,7 @@
     function teacher_carousel() {
         $('.teacher-carousel').owlCarousel({
             loop: true,
-            autoplay: false,
+            autoplay: true,
             dots: false,
             margin: 0,
             autoplayTimeout: 4000,
@@ -163,7 +164,7 @@
     function blog_carousel() {
         $('.blog-carousel').owlCarousel({
             loop: true,
-            autoplay: false,
+            autoplay: true,
             margin: 0,
             dots: false,
             autoplayTimeout: 4000,
@@ -193,7 +194,7 @@
     function tst_carousel() {
         $('.tst-carousel').owlCarousel({
             loop: true,
-            autoplay: false,
+            autoplay: true,
             dots: true,
             items: 1,
             autoplayTimeout: 4000,
